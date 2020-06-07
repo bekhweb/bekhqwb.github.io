@@ -1,0 +1,230 @@
+@import 'root.css';
+
+body{
+    min-width: 320px;
+}
+
+header{
+   height: 100vh;
+   background: url(../images/bg_header.jpg) no-repeat center
+   center /cover; 
+   color: red;
+   min-height: 568px;
+
+}
+.sw a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    padding: 8px 20px;
+    background: var(--green-dark);
+    display: inline-block;
+    border: 3px solid var(--green);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(30, 30, 30, 0.40) inset;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: var(--f700);
+}
+.header-menu a{
+    padding: 40px 25px;
+    display: inline-block;
+    color: var(--white);
+    font-size: 20px;
+    
+    
+
+}
+.header-menu a:hover{
+background: var(--green_75);
+}
+.header-menu span{
+    width: 25px;
+    height: 25px;
+    background: var(--white);
+    border-radius: 50%;
+    display: inline-block;
+    color: var(--green);
+    text-align: center;
+    margin-left: 7px;
+}
+.header-title{
+    font-size: 72px;
+    font-family: var(--f900);
+    color: var(--green);
+    text-transform: uppercase;
+
+}
+.header-about{
+    font-size: 36px;
+    color: var(--green);
+    margin-bottom: 36px;
+}
+.header-desc{
+    color: var(--gray-light);
+    margin-bottom: 75px;
+}
+.header-price{
+    font-size: 60px;
+    font-family: var(--f100);
+    background: var(--green);
+    padding: 27px 90px ;
+    color: var(--white);
+    
+}
+.card-image{
+    position: relative;
+    display: flex;
+    border: 1px solid var(--gray);
+}
+.card-image a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--green_90);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-family: var(--f700);
+    font-size: 24px;
+    opacity: 0;
+    transition: 500ms;
+}
+.card-image p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 60px;
+    background: var(--green_90);
+    color: var(--white);
+    font-size: 24px;
+    transition: 400ms;
+}
+.card-image:hover a{
+    opacity: 1;
+}
+.card-image:hover p{
+    opacity: 0;
+}
+/* main */
+
+main{
+    background: var(--dark);
+}
+
+.menu{
+    padding: 50px 0 70px 0;
+}
+.menu a{
+    color: var(--gray);
+    font-family: var(--f700);
+    transform: 400ms;
+} 
+.menu li{
+    margin-right: 45px;
+}
+.menu a:hover{
+    color: var(--green);
+}
+.card-item{
+    margin-bottom: 50px;
+}
+.card-item h2{
+
+    color: var(--green);
+    text-transform: uppercase;
+    margin: 40px 0 20px 0;
+}
+.card-item{
+    color: var(--gray-light);
+    line-height: 24px;
+    font-size: 16px;
+}
+.recept{
+    background: url(../images/section_bg.jpg)no-repeat center 
+    center /cover;
+    margin-top: 50px;
+    padding: 50px 0 65px 0 ;
+
+}
+.recept h2{
+    color: var(--green);
+font-family: var(--f700);
+font-size: 36px;
+text-align: center;
+
+
+}
+.recept h2::after{
+    content: '' ;
+    max-width: 200px;
+    height: 1px;
+    background: var(--green);
+    display: block;
+    margin: auto;
+    margin: 20px auto 50px auto;
+}
+.recept p{
+    color: var(--white);
+    text-align: justify;
+    margin-bottom: 35px;
+    line-height: 24px;
+    font-size: 18px;
+
+}
+.map p{
+    color: var(--green);
+    font-family: var(--f700);
+    font-size: 36px;
+    text-align: center;
+    padding: 55px 0;
+    background: var(--white);
+}
+.map iframe{
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+footer{
+    background: var(--dark);
+    padding: 50px 0;
+}
+footer .tel{
+    font-size: 20px;
+    font-family: var(--rb);
+    color: var(--green-dark);
+
+}
+footer ul{
+    margin: 55px 0;
+}
+footer li{
+    margin: 0 20px;
+}
+footer li a{
+    color: var(--gray-light);
+    font-family: var(--f100);
+    font-size: 18px;
+    transition: 500ms;
+}
+footer p{
+    color: var(--gray-light);
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--f100);
+
+}
+footer li:hover a{
+    color: var(--green);
+    text-shadow: 0 0 5px  var(--green),0 0 5px  var(--green),0 0 5px  var(--green),
+     0 0 5px  var(--green),0 0 5px  var(--green),0 0 5px  var(--green);
+     display: block;
+     transform: scale(2) rotate(365deg);
+    
+}
+

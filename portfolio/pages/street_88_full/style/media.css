@@ -1,0 +1,66 @@
+/* XL */
+
+@media(max-width: 1220px) {}
+
+/* LG */
+@media(max-width: 992px) {
+    .col-lg-6 {
+        width: var(--col-6);
+    }
+    .header-title{
+        font-size: 50px;
+    }
+    .header-price{
+        font-size: 40px;
+        padding: 10px 50px;
+    }
+}
+
+/* MD */
+@media(max-width:768px) {
+    
+    .col-md-8 {
+        width: var(--col-8);
+    }
+    .d-md-none{
+        display: none;
+    }
+    .justifay-content-md-center{
+        justify-content: center;
+
+    }
+    .header-title{
+font-size: 40px;
+    }
+    .menu li{
+        margin: 0 10px;
+    }
+}
+
+/* SM */
+@media(max-width: 576px) {
+    .col-sm-12 {
+        width: var(--col-12);
+    }
+    .justifay-content-sm-center{
+        justify-content: center;
+    }
+}
+
+
+
+.header-menu a{
+    margin-top: 5px;
+    padding: 4px 25px;
+}
+
+.pa{
+    padding: 10px;
+}
+/* header{
+    height: 1000px;
+    
+ 
+ } */
+/* XS */
+@media(max-width:320px) {}

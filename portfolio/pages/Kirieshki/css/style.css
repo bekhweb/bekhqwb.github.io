@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/* ========================== header ================================ */
+
+header .background {
+    background: url(../images/header_bg.jpg) center center / cover no-repeat;
+    background-attachment: fixed;
+        width: 100%;
+       height: 600px;
+    
+
+}
+
+header .container {
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+header .info h1 {
+    color: #404040;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+header .info h2 {
+    color: #70869d;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+/* ================================================================== */
+
+/* ============================ main ================================ */
+
+/* === buy === */
+main .buy {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .product {
+    display: flex;
+    margin: 50px 0;
+}
+
+main .product img {
+    margin-right: 30px;
+}
+
+main .product .p-info {
+    max-width: 540px;
+}
+
+main .product p {
+    max-width: 270px;
+    color: #70869d;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+main .product h4 {
+    max-width: 150px;
+    line-height: 27px;
+    color: #1f3750;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main .product button {
+    width: 160px;
+    height: 40px;
+    background: #f2f2f2;
+    border: none;
+    color: #70869d;
+    cursor: pointer;
+}
+
+main .product button:hover {
+    background: #0092b6;
+    color: #e8f2f6;
+    transition: 250ms;
+}
+
+/* =========== */
+
+
+/* === info === */
+
+main .info {
+    background: #f3f9ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 25px;
+}
+
+main .info .fruts {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+main .info .fruts h4 {
+    color: #1f3750;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+main .info .fruts img {
+    margin-bottom: 30px;
+}
+
+main .info .fruts p {
+    margin-bottom: 20px;
+    color: #70869d;
+    font-size: 16px;
+}
+
+main .info .fruts a {
+    color: #1f3750;
+    font-weight: bold;
+    text-decoration-color: #6e7f91;
+}
+
+/* ============ */
+
+/* === region === */
+main .region h3 {
+    color: #1f3750;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    padding: 50px 0;
+}
+
+main .region .r-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .region .r-list ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+main .region .r-list a {
+    text-decoration: none;
+    color: #70869d;
+    font-size: 20px;
+}
+
+main .region .r-list a:hover {
+    color: #0092b6;
+}
+
+/* ============== */
+
+/* ================================================================== */
+
+/* ============================ footer ============================== */
+footer {
+    background: #f3f9ff;
+}
+
+.f-container {
+   
+   
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+footer .f-container h5 {
+    font-size: 20px;
+    color: #444444;
+    font-weight: bold;
+}
+
+footer .f-container ul {
+    display: flex;
+    list-style-type: none;
+}
+
+footer .f-container ul li {
+    margin-left: 30px;
+}
+
+footer .f-container a {
+    color: #6d6d6d;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* ================================================================== */

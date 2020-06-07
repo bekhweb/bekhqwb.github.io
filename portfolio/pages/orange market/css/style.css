@@ -1,0 +1,163 @@
+/* @font-face {
+    font-family: "uktam";
+    src: url(../fonts/17997.otf)
+}
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat',sans-serif;
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo img{
+    margin-right: 22px;
+
+}
+.logo{
+    color: #dd4400;
+    text-decoration: none;
+    font-size: 16px;
+}
+header > img{
+    width: 100%;
+}
+header ul li{
+    margin-left: 34px;
+
+}
+header ul a{
+    color: #4e4e4e;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 500ms;
+}
+header ul a:hover{
+    color: #dd4400
+}
+header nav{
+    padding: 7px 0;
+    box-shadow: 0 0 15px 0 #3a1f0c;
+    position: relative;
+    z-index: 1;
+    
+}
+/*  header end 
+ *********************** 
+main start  */
+
+main .cart{
+box-shadow: 0 0 15px 0 #eadcd6;
+padding: 50px 30px 26px 30px;
+max-width: 225px;
+box-sizing: border-box;
+flex-grow: 1;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.cart p{
+min-width: 163px;
+font-weight: bold;
+font-size: 18px;
+color: #dd4400;
+margin-bottom: 50px;
+
+}
+.link_details{
+    padding: 14px 50px;
+    background: #dd4400;
+    text-decoration: none;
+color: #fff;
+display: inline-block;
+
+}
+.cart_image{
+    margin-bottom: 30px;
+    width: 100%
+}
+.cart_image::before{
+    content:'' ;
+    background:linear-gradient(to right, transparent,#dd4400,transparent);
+    height: 1px;
+    display: block;
+    margin-bottom: 30px;
+
+
+}
+main{
+    padding: 50px 0 100px 0;
+}
+.main_content{
+    margin-top: 100px;
+    align-items: flex-start
+}
+
+.interesting{
+    min-width: 255px;
+}
+.main_content h2{
+    color: #5e5e5e;
+    font-size: 30px;
+    margin-bottom: 52px;
+    
+}
+.main_content p{
+    color: #5e5e5e;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+.interesting a{
+display: flex;
+margin-bottom: 15px;
+align-items: center;
+color: #dd4400;
+
+}
+.interesting a img{
+    margin-right: 30px;
+}
+footer{
+    background: #dd4400;
+    padding: 65px 0;
+    color: white;
+
+}
+footer h4{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 26px;
+
+}
+.phone a{
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+}
+.phone p{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.email{
+    text-align: right;
+}
+.email p{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.email a{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}

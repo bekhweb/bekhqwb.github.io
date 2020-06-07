@@ -1,0 +1,57 @@
+@media screen and (max-width: 1200px) {
+    .tour__img {
+        max-width: 90%;
+    }
+
+    .city_hiden {
+        padding-top: 20px;
+    }
+    .header-content{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .tour__img {
+        max-width: 80%;
+    }
+
+    .city__name {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .city__info {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tour__name {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .tour__img {
+        max-width: 90%;
+    }
+
+    .tour {
+        margin: 0 auto;
+    }
+
+    .city_hiden {
+        display: none;
+    }
+    .header-info{
+        margin-bottom: 20px;
+    }
+    .header-title{
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 320px) {}
